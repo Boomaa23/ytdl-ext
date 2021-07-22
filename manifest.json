@@ -1,0 +1,14 @@
+{
+  "name": "Youtube Direct DL",
+  "version": "1.0",
+  "description": "Automatically sends Youtube download URL to youtube-dl locally",
+  "background": {
+    "scripts": ["watch-ytdl.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "ytdl-ext"
+  },
+  "permissions": ["tabs"],
+  "manifest_version": 2
+}
